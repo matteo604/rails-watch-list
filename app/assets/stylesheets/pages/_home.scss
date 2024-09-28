@@ -1,1 +1,66 @@
 // Specific CSS for your home-page
+/* Header styling */
+.header {
+  background-image: url('/assets/your-background-image.jpg'); /* replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+/* Add movie button styling */
+.add-movie {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.add-movie .btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+/* Movie card styling */
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card .movie-poster {
+  width: 100%;
+  height: 200px;
+}
+
+.movie-card .card-body {
+  padding: 15px;
+}
+
+.movie-card .card-title {
+  font-weight: bold;
+}
+
+.movie-card .card-text {
+  margin-top: 10px;
+  color: #666;
+}
+
+.movie-card .card-comment {
+  font-style: italic;
+  margin-top: 15px;
+  color: #333;
+}
+
+.delete-link {
+  color: red;
+  font-weight: bold;
+  float: right;
+}
